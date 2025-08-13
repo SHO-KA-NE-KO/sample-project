@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ページリンクの作り方</title>
+
+  <!-- Google Fonts（任意） -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- cssフォルダにあるstyle.cssを読み込む -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>ページリンクの作り方</h1>
+  <p>　●フォルダ構造</p>
+
+  <p>　project/
+  <p>　│</p>
+  <p>　├─ index.html</p>
+  <p>　├─ about/          ← 並列フォルダ</p>
+  <p>　│    └─ page.html  ← 開きたい別ページ</p>
+  <p>　└─ contact/</p>
+  <p>　     └─ form.html</p>
+
+  <p>　●アンカーリンクを使う</p>
+  <p>　　①HTMLでリンクする方法
+  <p>　　　1. 同じ階層のフォルダにあるHTMLを開く
+  <p>　　　index.htmlからabout/page1.htmlへリンクする場合：<span>&lt;a href="about/page1.html"&gt;page1へ&lt;/a&gt;</span>
+  <p>　　　index.htmlからabout/page1.htmlから新しいタブで開く場合：<span>&lt;a href="about/page1.html" target="_blank" rel="noopener noreferrer">page1へ&lt;/a&gt;</span>
+  <p>　　　　　　target="_blank" → 新しいタブで開く</p>
+  <p>　　　　　　rel="noopener noreferrer" → セキュリティ対策（外部リンクや新しいタブ用）</p>
+  
+  <p>　● 別ページ側に戻るリンクを置く場合</p>
+  <p>　　　　about/page.htmlからindex.htmlに戻すには：<span>&lt;a href="../index.html">トップページに戻る&lt;/a&gt;</span></p>
+  <p>　　　<a href="../index.html">トップページに戻る</a></p>
+</body>
+</html>
