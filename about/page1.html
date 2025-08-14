@@ -30,7 +30,18 @@
   <p>　　　index.htmlからabout/page1.htmlから新しいタブで開く場合：<span>&lt;a href="about/page1.html" target="_blank" rel="noopener noreferrer">page1へ&lt;/a&gt;</span>
   <p>　　　　　　target="_blank" → 新しいタブで開く</p>
   <p>　　　　　　rel="noopener noreferrer" → セキュリティ対策（外部リンクや新しいタブ用）</p>
-  
+  <p></p>
+  <p>　●ページ内リンク</p>
+  <p>　　　　<span>&lt;a href="#section1">1章へ移動&lt;/a&gt;</span>
+  <p>　　　　同じページ内のリンク先</p>
+  <p>　　　　<span>&lt;h2 id="section1">1章</h2></p>
+  <p>　　　　ページが長い場合に便利</p>
+  <p></p>
+  <p>　●メールリンク / 電話リンク</p>
+  <p>　　　　<span>&lt;a href="mailto:info@example.com">メールする&lt;/a&gt;</span></p>
+  <p>　　　　<span>&lt;a href="tel:0123456789">電話する&lt;/a&gt;</span></p>
+  <p>　　　　スマホではタップで即メール・電話アプリが開く</p>   
+  <p></p>
   <p>　● 別ページ側に戻るリンクを置く場合</p>
   <p>　　　　about/page.htmlからindex.htmlに戻すには：<span>&lt;a href="../index.html">トップページに戻る&lt;/a&gt;</span></p>
   <p>　　　　../ は「1つ上の階層へ戻る」という意味</p>
