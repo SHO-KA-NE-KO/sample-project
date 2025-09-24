@@ -1,3 +1,78 @@
+header {
+  display: flex;                 /* 横並び */
+  justify-content: space-between;/* 左右に配置 */
+  align-items: center;           /* 高さを揃える */
+  padding: 20px 40px;            /* 内側の余白 */
+  background-color: #fafafa;     /* 薄い背景色 */
+  border-bottom: 1px solid #ddd; /* 下に線 */
+}
+
+/* ロゴ */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f0f0f;
+}
+
+/* ナビゲーション */
+nav ul {
+  list-style: none;   /* リストの点を消す */
+  display: flex;      /* 横並び */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;  /* 各リンクの間隔 */
+}
+
+nav ul li a {
+  text-decoration: none; /* 下線を消す */
+  color: #333;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #007BFF;  /* ホバーで色が変わる */
+}
 body{background-color:rgb(233, 234, 236)}
 h1{font-family: Helvetica, sans-serif;}
 p{color: rgb(20, 20, 20);}
+
+footer {
+  background-color: #fafafa;   /* ダーク背景 */
+  color: #0f0f0f;              /* 白文字 */
+  padding: 20px 40px;
+}
+
+.footer-inner {
+  display: flex;            /* 横並び */
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  margin-left: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline; /* ホバー時に下線 */
+}
