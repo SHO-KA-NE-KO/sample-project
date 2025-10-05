@@ -39,6 +39,24 @@ body{background-color:rgb(233, 234, 236)}
 h1{font-family: Helvetica, sans-serif;}
 p{color: rgb(20, 20, 20);}
 
+.hidden {
+  display: none;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #666;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
+
 footer {
   background-color: #fafafa;   /* ダーク背景 */
   color: #0f0f0f;              /* 白文字 */
